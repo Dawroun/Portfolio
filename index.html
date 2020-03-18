@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+</head>
+
+<body>
+
+    <div class="container navbar">
+        <header>
+            <div class="lgo">
+                <h1>Davron</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#skills">Skills</a></li>
+                    <li> <a href="#work">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+
+    <div class="container main-info-section">
+        <div class="text">
+            <h1>
+                <span>H</span>
+                <span class="m-left">i</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>I</span>
+                <span class="m-left">'</span>
+                <span class="m-left">m</span>
+                <span class="name">D</span>
+                <span class="m-left name">a</span>
+                <span class="m-left name">v</span>
+                <span class="m-left name">r</span>
+                <span class="m-left name">o</span>
+                <span class="m-left name">n</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>A</span>
+                <span class="m-left">b</span>
+                <span class="m-left">d</span>
+                <span class="m-left">u</span>
+                <span class="m-left">k</span>
+                <span class="m-left">h</span>
+                <span class="m-left">a</span>
+                <span class="m-left">k</span>
+                <span class="m-left">i</span>
+                <span class="m-left">m</span>
+                <span class="m-left">o</span>
+                <span class="m-left">v</span>
+                <span class="m-left">.</span>
+            </h1>
+            <p>CSS / JavaScript / HTML / React / #C / C++</p>
+            <ul>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+            
+        </div>
+        <div class="portfolio-image">
+            <img src="img/portfolio-image.png" alt="">
+        </div>
+    </div>
+
+
+    <div class="about" id="about">
+        <h1>About</h1>
+        <div class="about-me-info">
+            <p>I’ve always sought out opportunities and challenges that are meaningful to me. Although my professional path
+                 has taken many twists and turns — from touring and recording artist, to employee of the year at a non-profit,
+                 to dean's scholar at UPenn, to small business owner and entrepreneur — I've never stopped engaging my passion 
+                 to help others and solve problems.</p>
+            <p>As a web developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things,
+                 and my mission-driven work ethic to literally change the world. That's why I’m excited to make a big impact
+                 at a high growth company.</p>
+        </div>
+        <img src="img/dottedLasst.png" alt="">
+    </div>
+
+
+
+
+    <div class="container skills" id="skills">
+        <h1>Skills</h1>
+        <p class="skills-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus mollitia, 
+        excepturi hic atque pariatur molestias et aperiam, commodi cumque sit repellat modi tempore quibusdam,
+         nemo corporis quas animi. Ullam, blanditiis.</p>
+         <div class="html">
+             <div class="tag-html">
+                 <p>HTML</p>
+             </div>
+             <div class="progressBar">
+                 <div class="bar-HTML"></div>
+             </div>
+         </div>
+         <div class="html">
+            <div class="tag-css">
+                <p>CSS</p>
+            </div>
+            <div class="progressBar">
+                <div class="bar-css"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-javaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="progressBar">
+                <div class="bar-javaScript"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-react">
+                <p>React</p>
+            </div>
+            <div class="progressBar">
+                <div class="bar-react"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container work" id="work">
+        <h1>Work</h1>
+        <div class="work-category">
+            <button id="designing" class="active" onclick="showRequiredCategory(this)">Web designing</button>
+            <button id="animation" onclick="showRequiredCategory(this)">Web Animation</button>
+            <button id="project" onclick="showRequiredCategory(this)">React Projects</button>
+        </div>
+        <div class="category-designing showCategory">
+            <a href=""><img src="img/1.png"></a>
+            <a href=""><img src="img/2.png"></a>
+            <a href=""><img src="img/3.png"></a>
+            <a href=""><img src="img/2.png"></a>
+            <a href=""><img src="img/3.png"></a>
+        </div>
+        <div class="category-animation hideCategory">
+            <a href=""><img src="img/1.png"></a>
+            <a href=""><img src="img/2.png"></a>
+            <a href=""><img src="img/3.png"></a>
+        </div>
+        <div class="category-project hideCategory">
+            <a href=""><img src="img/1.png"></a>
+            <a href=""><img src="img/2.png"></a>
+            <a href=""><img src="img/3.png"></a>
+            <a href=""><img src="img/2.png"></a>
+        </div>
+    </div>
+
+
+
+    <div class="container contact" id="contact">
+        <h1>Contact </h1>
+        <form action="">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="email" placeholder="PortfolioPersonemail@example.com" disabled required>
+            <textarea name="message"  cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="submit">
+        </form>
+    </div>
+
+
+
+    <footer>
+        <hr>
+        <p>2020 Copyright. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/CSSPlugin.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
